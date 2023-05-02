@@ -1,0 +1,114 @@
+* {
+    background-color: black;
+}
+
+header {
+    border-bottom:1px solid #14aacf9f;
+    border-style:dashed;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.scoreboard {
+    text-align: center;
+    border: 20px solid;
+    margin-top: 7em;
+    border-style:groove;
+    display:flex;
+    flex-direction:column;
+    width:40em;
+}
+
+h1 {
+    color: rgb(245, 240, 255);
+    padding:10px;
+    text-align:center;
+}
+
+
+h2, h3 {
+    margin-bottom:1em;
+    font-size: 30px;
+    color:#ffffff
+}
+
+.result {
+    color:#14aacf9f;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+    background-color: #000000;
+}
+
+.score {
+    font-size: 35px;
+    padding-top:40px;
+    padding-bottom:40px;
+    display:flex;
+    justify-content: space-evenly;
+    gap:3em
+}
+
+.userBadge, .compBadge {
+    background-color: #bfc0f1;
+    color:#000000;
+    padding-top: 0px;
+    border: 2px dotted #000000;
+    gap:0px;
+    font-size: 18px;
+    min-width:6em
+}
+
+p {
+    font-size: 30px;
+    background-color: #bfc0f1;
+
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fate{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 5em;
+}
+
+img:hover, button:hover {
+    background-color: #14aacf9f;
+}
+
+img {
+    max-width: 100px;
+    border: 5px solid #bfc0f1;
+    padding: 20px;
+    border-radius: 25%;
+    border-style:outset;
+}
+
+.btn {
+    color: #14aacf9f;
+    display: flex;
+    border: 3px solid white;
+    justify-content: center;
+    font-size: 20px;
+    padding: 4px;
+    visibility:hidden;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+}
